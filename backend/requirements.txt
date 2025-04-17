@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+elasticsearch
+pydantic
+langchain
+openai
+python-dotenv
+# Optional for MongoDB
+motor
