@@ -75,11 +75,20 @@ Excellent! Here’s a **practical, step-by-step plan** to build SecurityLens as 
 
 ## 6. Next Steps
 
-1. **Design UI wireframes** for chat/command bar and dashboard studio.
-2. **Build the AI agent orchestration layer** (start with LangChain or similar).
-3. **Implement core MVP features** (log ingestion, NLQ, dashboard, alerting).
-4. **Test with real security data and iterate based on user feedback.**
-5. **Plan advanced agentic workflows and plugin SDK for extensibility.**
+- Finalize UI wireframes & interactive prototype for chat/command bar and dashboard studio.
+- Define and document backend API contracts, data models, and Elasticsearch index schemas.
+- Scaffold repo structure: `/frontend`, `/backend`, `/infra`, plus shared `/libs` for common types.
+- Configure development environments & CI/CD:
+  - GitHub Actions for linting, tests, Docker builds.
+  - Environment variable management (`.env`).
+- Implement MVP log ingestion pipeline:
+  - Source connectors (Linux, firewall, cloud).
+  - Parsing & field mapping agent stub.
+- Build Chat/Command Bar MVP component in Next.js; hook up to backend NLQ endpoint.
+- Schedule sprint planning session:
+  - Assign owners for each feature.
+  - Set Milestones & deliverables for Sprints 1–3.
+- Prepare initial test harness with sample log data and unit/integration tests.
 
 ---
 
